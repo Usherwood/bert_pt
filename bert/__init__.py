@@ -14,3 +14,4 @@
 # limitations under the License.
 
 from bert_pt import *
+from bert_pt.bert import *
