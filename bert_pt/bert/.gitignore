@@ -1,3 +1,5 @@
+# Initially taken from Github's Python gitignore file
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -24,7 +26,6 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
-.idea/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -39,6 +40,7 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+.nox/
 .coverage
 .coverage.*
 .cache
@@ -73,6 +75,10 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# IPython
+profile_default/
+ipython_config.py
+
 # pyenv
 .python-version
 
@@ -101,17 +107,10 @@ venv.bak/
 # mkdocs documentation
 /site
 
-#other
-*.pkl
-
 # mypy
 .mypy_cache/
+.dmypy.json
+dmypy.json
 
-# pyc
-*.idea
-.idea/
-__pycache__/
-bert_pt/__pycache__/
-
-datasets/
-models/
+# Pyre type checker
+.pyre/
