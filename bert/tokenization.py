@@ -26,7 +26,7 @@ import tensorflow as tf
 import pickle
 import os
 
-from bpe import create_token_vocabulary, get_stats, merge_vocab, Encoder
+from bert_pt.bert.bpe import create_token_vocabulary, get_stats, merge_vocab, Encoder
 
 def validate_case_matches_checkpoint(do_lower_case, init_checkpoint):
   """Checks whether the casing config is consistent with the checkpoint name."""

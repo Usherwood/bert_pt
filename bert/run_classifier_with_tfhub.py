@@ -19,9 +19,9 @@ from __future__ import division
 from __future__ import print_function
 
 import os
-import optimization
-import run_classifier
-import tokenization
+import bert_pt.bert.optimization
+import bert_pt.bert.run_classifier
+import bert_pt.bert.tokenization
 import tensorflow as tf
 import tensorflow_hub as hub
 

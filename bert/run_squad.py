@@ -23,9 +23,9 @@ import json
 import math
 import os
 import random
-import modeling
-import optimization
-import tokenization
+import bert_pt.bert.modeling
+import bert_pt.bert.optimization
+import bert_pt.bert.tokenization
 import six
 import tensorflow as tf
 

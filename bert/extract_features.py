@@ -23,8 +23,8 @@ import collections
 import json
 import re
 
-import modeling
-import tokenization
+import bert_pt.bert.modeling
+import bert_pt.bert.tokenization
 import tensorflow as tf
 
 flags = tf.flags

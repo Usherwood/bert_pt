@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 from collections import Counter
 
-from text_preprocessing import tokenizer_word, clean_text_for_language_model
+from bert_pt.bert.text_preprocessing import tokenizer_word, clean_text_for_language_model
 
 __author__ = "Peter J Usherwood and Steve Smit"
 __python_version__ = '3.6'
