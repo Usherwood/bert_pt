@@ -196,10 +196,10 @@ class FullTokenizer(object):
     return split_tokens
 
   def convert_tokens_to_ids(self, tokens):
-    return convert_by_vocab(self.vocab, tokens)
+    return convert_by_vocab(self.vocab_to_id, tokens)
 
   def convert_ids_to_tokens(self, ids):
-    return convert_by_vocab(self.inv_vocab, ids)
+    return convert_by_vocab(self.id_to_vocab , ids)
 
 
 class BasicTokenizer(object):
