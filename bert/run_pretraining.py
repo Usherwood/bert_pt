@@ -19,8 +19,8 @@ from __future__ import division
 from __future__ import print_function
 
 import os
-import bert_pt.bert.modeling
-import bert_pt.bert.optimization
+import bert_pt.bert.modeling as modeling
+import bert_pt.bert.optimization as optimization
 import tensorflow as tf
 
 flags = tf.flags
